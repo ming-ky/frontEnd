@@ -1,0 +1,35 @@
+.wrap{
+    width: 700px;
+    height: 300px;
+    background: dodgerblue;
+
+    /*display: flex : 가로배치 / 부모-자식요소가 자동으로 상속됨*/
+    /*개발자도구로 보면 여러 가지 배치방법도 알려줌*/
+    /*자식요소의 넓이를 설정했어도 요소가 넘어가면 자동으로 넓이를 줄여버림*/
+    display: flex;
+
+    /*flex-wrap : display flex를 사용했을 때 자식요소의 넓이,높이가 자동으로 줄여지지않게 해줌*/
+    /*기본값이 wrap으로 설정되어있어서 nowrap을 해주면 됨*/
+    flex-wrap: nowrap;
+
+    /*justify-content : 컨텐츠를 정렬하는 방식(가로정렬)*/
+    /*justify-content: center;*/
+    /*justify-content: end;*/
+    /*justify-content: left;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-around;*/
+
+    /*align-items : 컨텐츠를 정렬하는 방식(수직정렬)*/
+    /*align-items: center;*/
+    /*align-items: end;*/
+    /*align-items: start;*/
+}
+
+
+.wrap div{
+    width: 150px;
+    height: 150px;
+    background: orange;
+    box-sizing: border-box;
+    border: 3px solid black;
+}

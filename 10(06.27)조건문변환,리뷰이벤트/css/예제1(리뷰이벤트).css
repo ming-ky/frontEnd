@@ -1,0 +1,53 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+h1 {
+    border-bottom: 2px solid black;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 50px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.wrap {
+    width: 250px;
+    height: 30px;
+    background: #333;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+}
+
+.wrap div{
+    float: left;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: grey;
+}
+
+.wrap div:nth-child(1),
+.wrap div:nth-child(2),.wrap div:nth-child(3),
+.wrap div:nth-child(4),.wrap div:nth-child(5){
+    cursor: pointer;
+}
+
+.wrap .gold {
+    color: gold;
+    text-shadow: 0 0 5px gold;
+}
+
+.wrap .print {
+    width: 50%;
+    color: #fff;
+    font-size: 14px;
+}
+
+.wrap .print img{
+    vertical-align: middle;
+    margin-left: 3px;
+}
+
+

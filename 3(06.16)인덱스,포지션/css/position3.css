@@ -1,0 +1,48 @@
+body{position: relative}
+/*green 박스를 흰색,회색 중앙 위치하게 하기 위해선 body 위치 잡아줘야함.*/
+
+.white{
+    height: 1000px;
+    background: white;
+}
+
+.green{
+    width: 660px;
+    height: 450px;
+    background: green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -330px;
+    margin-top: -225px;}
+
+.gray{
+    height: 1000px;
+    background: gray;
+}
+
+.videoFrame{
+    width: 100px;
+    height: 100px;
+    background: black;
+    position: absolute;
+    right: -100px;
+    top: -100px;
+}
+
+.gradientBg{
+    width: 100px;
+    height: 100px;
+    background: black;
+    position: absolute;
+}
+
+.main_box{
+    width: 400px;
+    height: 200px;
+    background: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -100px;}

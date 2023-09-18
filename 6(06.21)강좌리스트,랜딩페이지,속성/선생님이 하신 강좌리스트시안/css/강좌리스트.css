@@ -1,0 +1,102 @@
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Google Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+
+section {
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    color: #222;
+}
+section .title_box {
+    margin-bottom: 30px;
+}
+section .title_box h1 {
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+section .title_box > p {
+    font-weight: 300;
+}
+.wrap {
+    display: flow-root;
+}
+.wrap .item {
+    width: 290px;
+    height: 500px;
+    float: left;
+    margin-right: 12px;
+}
+.wrap .item:nth-child(4) {
+    margin-right: 0;
+}
+.wrap .item .image {
+    /*font-size: 0;*/
+    margin-bottom: 10px;
+}
+.wrap .item .image img {
+    width: 100%;
+    display: block;
+}
+
+.wrap .item .info {}
+.wrap .item .info h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+.wrap .item .info > span {
+    display: block;
+    /*border: 2px solid black;*/
+}
+.wrap .item .info .category {
+    font-weight: 600;
+    color: #0084ff;
+}
+.wrap .item .info p {
+    margin: 12px 0;
+    font-size: 0;
+}
+.wrap .item.event .info h2 {
+    margin-bottom: 20px;
+    color: red;
+}
+.wrap .item.event .info p {
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+.wrap .item .info p .fa {
+    color: gold;
+    font-size: 16px;
+}
+.wrap .item .info p span {
+    font-size: 13px;
+}
+
+.wrap .item .info .price {
+    font-weight: 700;
+    color: royalblue;
+    margin-bottom: 10px;
+}
+
+.wrap .item .info .badge {
+    background: #f6d5ea;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+}
+.wrap .item:nth-child(3) .info .badge {
+    background: #d1ebe0;
+}
+
+/*.wrap .item .info h2 {}*/
+
+
+

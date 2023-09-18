@@ -1,0 +1,91 @@
+body{
+    height: 500vh;
+}
+div{
+    height: 700px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.bg1{
+    background: red;
+}
+
+/*background-image 는 배경을 이미지 파일로 채움*/
+.bg2{
+    background: blue;
+    background-image: url("../images/img01.PNG");
+}
+
+/*background-repeat은 반복 속성
+  no-repeat은 반복없애기
+  repeat-x,y 그 축으로만 반복*/
+.bg3{
+    background: orange;
+    background-image: url("../images/img01.PNG");
+    background-repeat: no-repeat;);
+    /*background-repeat: repeat-x;*/
+    /*background-repeat: repeat;*/
+}
+
+/*background-position: x, y의 위치에 이미지를 배치하는 것
+수치를 입력해서 사용자 설정 위치로 보낼 수도 있음*/
+.bg4{
+    background: green;
+    background-image: url("../images/img01.PNG");
+    background-repeat: no-repeat;);
+    /*background-position: right;*/
+    /*background-position: center center;*/
+    /*background-position: left bottom;*/
+    background-position: 200px 200px;
+}
+
+/*background-size: x.y의 수치나 비율을 입력해서 배경 사이즈 조절
+100% 100%를 하면 그 박스 만큼 됨*/
+.bg5{
+    background: purple;
+    background-image: url("../images/img01.PNG");
+    background-repeat: no-repeat;);
+    background-size: 100% 100%;
+    /*background-size: cover;*/
+    /*background-size: contain;*/
+}
+
+/*background-attachment 박스안에서의 배경이미지를 스크롤처리함*/
+.bg6{
+    height: 900px;
+    background: purple;
+    background-image: url("../images/bg.jpeg");
+    background-repeat: no-repeat;);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*background 축약 background 속성들을 한번에 쓸 수 있음*/
+.bg7{
+    background: red url("../images/img01.PNG")no-repeat 300px 300px/ 300px 200px fixed;
+/*background: 배경색/배경이미지/반복유무/*이미지위치/*스크롤처리유무 을 축약해서 입력할 수 있음.
+*이미지 위치와 스크롤 처리를 같이 입력하면 이미지의 위치가 스크롤내렸을 때 이미지의 위치로 입력되는데
+ center 같이 박스 위치를 포지션으로 설정하는 것과 *사용자설정이 가능함
+ *사용자설정의 경우(이미지 위치x,y축/이미지크기 x,y 사용자설정)*/
+}
+
+/*linear-gradient(마지막 색이 칠해질 방향(to left...)/각도(00deg),그라데이션을 넣을 색상(투명은 transparent)*/
+.bg8{
+    height: 900px;
+    /*background-image: url("../images/bg.jpeg");*/
+    /*background-repeat: no-repeat;);*/
+    /*background-size: cover;*/
+    background: linear-gradient(200deg, orange, orangered, transparent);
+}
+
+.bg9{
+    height: 900px;
+    /*background-video: url("images(랜딩페이지)/video-female.mp4");*/
+    /*background-repeat: no-repeat;);*/
+    /*background-size: cover;*/
+    background: linear-gradient(200deg, orange, orangered, transparent);
+}

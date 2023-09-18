@@ -1,0 +1,30 @@
+.wrap{
+    width: 800px;
+    margin: 0 auto;
+}
+
+.wrap .header{
+    height: 110px;
+    background: deeppink;
+}
+
+.wrap .main{
+    height: 450px;
+    background: aquamarine;
+}
+.wrap .container{
+    height: 220px;
+    background: orange;
+}
+
+footer {
+    height: 120px;
+    background: #646464;
+}
+
+footer .innerFooter{
+    width: 800px;
+    height: 120px;
+    background: #2a2b2b;
+    margin: 0 auto;
+}

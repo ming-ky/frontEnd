@@ -1,0 +1,30 @@
+.floatBox {
+    width: 800px;
+    background: #cccccc;
+    display: flow-root;
+}
+
+.floatBox div div {
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+
+.floatBox div .float01 {
+    background: #92c32a;
+}
+
+.floatBox div .float02, .floatBox div .float07{
+    background: #e63d67;
+}
+
+.floatBox div .float03, .floatBox div .float06{
+    background: #1c8fd1;
+}
+
+.floatBox div .float04, .floatBox div .float05{
+    background: #ff7612;
+}
+
+/*복습*/
+/*정렬순서를 정하고 같은 색상이 들어있는 것의 순서를 골라 태그,태그로 선택하여 입력*/

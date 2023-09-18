@@ -1,0 +1,23 @@
+.floatList {
+    width: 660px;
+    background: gray;
+    display: flow-root;
+}
+
+.floatList div {
+    background: greenyellow;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    float: left;
+}
+
+.floatList .videoFrame {
+    width: 420px;
+}
+
+/*복습*/
+/*블록 컨테이너 만들고 float을 이용해 블록정렬 방향 & 중복/개별 부분 적용하기*/
+/*float:left 이므로 왼쪽부터 1번,2번,3번 순서*/
+
+

@@ -1,0 +1,15 @@
+.wrap {width: 700px; display: flow-root;
+background: orange}
+
+.wrap div{
+    width: 200px;
+    height: 200px;
+}
+
+.wrap .videoFrame {background: red; float: left}
+.wrap .gradientBg {background: dodgerblue; float: left }
+.wrap .main_box {background: yellow; float: left}
+.wrap .popupMenu {background: green; float:left }
+.wrap .box5 {background: purple; float: left}
+.black {background: black; width: 700px; height: 200px}
+

@@ -1,0 +1,36 @@
+#test{}
+#test div{
+    border: 3px solid black;
+}
+
+.imgSlider_btn{
+    position: absolute;
+    left: 50%;
+    top: 600px;
+    transform: translateX(-50%);
+}
+
+.imgSlider_btn button{
+    font-size: 30px;
+}
+
+.slick-dots{
+    background: red;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.slick-dots li{
+    width: 30px;
+    height: 30px;
+    background: orange;
+    border-radius: 50%;
+    display: inline-block;
+    /*cursor: pointer; 위에 마우스 이동 시 마우스 모양 바뀌게 해주는 기능*/
+    cursor: pointer;
+}
+.slick-dots li button{
+    display: none;
+}

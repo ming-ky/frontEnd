@@ -1,0 +1,58 @@
+.header {
+    background: orange;
+    height: 100px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.container {
+    /*border: 1px solid black;*/
+    margin: 0 auto;
+    width: 1000px;
+    height: 700px;
+    display: flow-root;
+    margin-top: 20px;
+}
+
+.container .snb{
+    background: dodgerblue;
+    width: 200px;
+    height: 700px;
+    margin-right: 10px;
+    float: left;
+}
+
+.container .contents{
+    background: yellowgreen;
+    width: 790px;
+    height: 700px;
+    float: right;
+    margin-right: 0;
+}
+
+.box{
+    margin: 0 auto;
+    width: 1000px;
+    height: 130px;
+    margin-top: 30px;
+    display: flex;
+}
+
+.videoFrame, .gradientBg{
+    width: 330px;
+    background: #c53cc3;
+    margin-right: 5px;
+}
+
+.main_box {
+    width: 330px;
+    background: #c53cc3;
+}
+
+footer {
+    width: 1000px;
+    background: navy;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20px;
+}

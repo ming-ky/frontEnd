@@ -1,0 +1,48 @@
+body{position: relative}
+
+.white{
+    height: 1000px;
+    background: white;
+}
+
+.green{
+    width: 660px;
+    height: 450px;
+    background: green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -225px 0 0 -330px;
+}
+
+.gray{
+    height: 1000px;
+    background: gray;
+}
+
+.green div{
+    width: 100px;
+    height: 100px;
+    background: black;
+}
+
+.green .main_box{
+    width: 400px;
+    height: 200px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin: -100px 0 0 -200px;
+}
+
+.green .videoFrame{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*박스를 객체 밖으로 내보내기*/
+.green .gradientBg{
+    position: absolute;
+    right: -100px;
+    top: -100px;
+}

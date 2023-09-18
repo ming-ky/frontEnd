@@ -1,0 +1,58 @@
+.floatList {
+    width: 660px;
+    background: gray;
+    display: flow-root;
+}
+
+.floatList div{
+    width: 200px;
+    height: 200px;
+    background: orangered;
+    margin: 10px;
+    float: left;
+}
+
+.floatList .videoFrame {
+    height: 420px;
+}
+.floatList .gradientBg {
+    height: 420px;
+    float: right;
+}
+
+/*다른방법*/
+/*ul,li 앞에 점과 여백 없애기*/
+ul, li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.floatList2 {
+    width: 660px;
+    background: gray;
+    display: flow-root;
+}
+
+.floatList2 li{
+    width: 200px;
+    height: 200px;
+    background: orangered;
+    margin: 10px;
+    float: left;
+}
+
+.floatList2 .videoFrame{
+    height: 420px;
+}
+
+.floatList2 .gradientBg{
+    height: 420px;
+    float: right;
+}
+
+/*복습*/
+/*정렬도중 float의 방향 바꾸기*/
+/*float:left로 되어 1~5번까진 왼쪽부터 정렬되다가
+5번에서 float:right로 바꿔 6,7번은 5번의 오른쪽으로 정렬됨.*/
+/*다른방법으로는 ui로 컨테이너박스를 만들고 세로정렬인 li의 방향을 바꾸어서 위치조절*/

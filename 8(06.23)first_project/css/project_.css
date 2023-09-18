@@ -1,0 +1,354 @@
+/*google web font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+KR:wght@500&display=swap');
+/* 'Montserrat' */
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@500&display=swap');
+/* 'Monoton' */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Raleway:wght@300&display=swap');
+/* 'Raleway' */
+/*'*'태그를 입력하면 전체태그에 적용됨*/
+*{
+    box-sizing: border-box;
+    font-family: 'montserrat' ,sans-serif;
+}
+
+/*컨텐츠 들어갈 창들 공통 적용되는 부분*/
+/*각 클래스에 'inner'라는 단어가 들어가 있어서 같이 적용됨*/
+/*weidt 970px,가운대 정렬이 공통사항이므로 같이 입력해주기*/
+.inner {
+    width: 970px;
+    margin: 0 auto;
+}
+
+/*헤더*/
+header{
+    /*background: blue;*/
+    margin-bottom: 50px;
+    border-bottom: 2px solid orangered;
+}
+
+/*헤더-컨텐츠 좌/우 들어갈 부분*/
+header .inner{
+    /*background: orange;*/
+    height: 80px ;
+    position: relative;
+}
+
+header .inner .left{
+    position: absolute;
+    left: 0;
+}
+
+.left_box{
+    margin-top: 41px;
+}
+.left_box div{
+    float: left;
+    font-weight: bold;
+}
+
+.left_box a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.left_box .gray{
+    color: gray;
+}
+
+.left_box div:nth-child(2){
+    margin-left: 50px;
+    margin-right: 58px;
+}
+.left_box div:nth-child(4){
+    margin-left: 44px;
+    margin-right: 50px;
+}
+.left_box div:nth-child(6){
+    margin-left: 32px;
+    margin-right: 15px;
+    font-size: 13px;
+    color: gray;
+    margin-top: 2px;
+}
+
+.left_box div:nth-child(7){
+    font-size: 13px;
+    color: gray;
+    margin-top: 2px;
+}
+
+header .right{
+    height: 80px;
+    /*width: 200px;*/
+    /*background: orange;*/
+    position: absolute;
+    right: 0;
+}
+.right_box div{
+    float: left;
+    font-size: 13px;
+    /*color: gray;*/
+    margin-right: 9px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.right_box a{
+    color: black;
+    text-decoration-line: none;
+    margin-bottom: 14px;
+}
+
+.right_box div {
+    margin-top: 7px;
+    margin-bottom: 14px;
+}
+.right_box div:nth-child(5){
+    margin-right: 5px;
+}
+
+/*.right .search{*/
+/*    !*width: 128px;*!*/
+/*    float: right;*/
+/*}*/
+
+/*.right .search .btn{*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+/*}*/
+
+.right .bottom{
+    float: right;
+}
+
+.right .bottom .search{
+    /*display: inline-block;*/
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #FF3333;
+    width: 128px;
+    height: 20px;
+    border: 1px solid gray;
+    vertical-align: middle;
+}
+
+.right .bottom img{
+    vertical-align: middle;
+}
+
+
+.right .bottom .btn {
+    display: inline-block;
+    vertical-align: middle;}
+
+
+
+
+/*메인*/
+.main{
+    margin-bottom: 60px;
+}
+
+section {
+    position: relative;
+}
+.visual{
+    height: 465px;
+    margin-top: 50px;
+}
+
+.visual #image_swiper img {
+   width: 100%;
+    height: auto;
+}
+.visual .productSlider {
+    height: 465px;
+}
+.visual .productBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.visual .left{
+    position: absolute;
+    left: 0;
+    top: 25%;
+    transform: translateY(-50%);
+    cursor: pointer;
+
+}
+.visual .right {
+    position: absolute;
+    right: 0;
+    top: 25%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.boardList{
+    height: 180px;
+    margin-top: 30px;
+}
+.board{
+    float: left;
+    width: 310px;
+    position: relative;
+}
+.board:nth-child(2){
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.board li{
+    font-size: 13px;
+    margin: 8px 0 10px 0;
+}
+
+
+.title{
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.board .title img{
+    position: absolute;
+    top: 0;
+    right: 10px;
+    display: block;
+}
+
+
+.board ul li a{
+    color: black;
+    text-decoration-line: none;
+}
+
+.boardList .board ul{
+    float: left;
+}
+
+.boardList .board .day{
+    float: right;
+}
+
+.banner{
+    margin-bottom: 12px;
+}
+
+.board .title{
+    border-bottom: 1px solid grey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+.banner {
+    border-bottom: 1px dotted grey;
+}
+
+
+.board .banner .text{    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    width: 230px;
+    float: right;
+    color: orangered;
+    text-decoration-line: none;
+}
+
+.board .banner div{
+    margin-bottom: 12px;
+}
+
+
+.bottomList{
+    height: 34px;
+    margin-top: 50px;
+}
+
+.bottomList div{
+    float: left;
+    margin-right: 20px;
+    /*margin-left: 10px;*/
+    border-right: 1px dotted gray;
+}
+
+.bottomList div:nth-child(1){
+    margin-left: 0;
+}
+
+.bottomList div:nth-child(5){
+    margin-right: 0;
+    border-right: none;
+}
+
+.bottomList img{
+    margin-right: 20px;
+}
+
+.bottomList .dotted{
+    border-right: 1px dotted gray;
+    /*float: left;*/
+    width: 20px;
+    height: 34px;
+    background: red;
+}
+
+
+footer{
+    background: #2a2b2b;
+}
+.innerFooter {
+    height: 80px;
+    position: relative;
+}
+
+.box1 .img{
+    float: left;
+    margin-bottom: 10px;
+}
+.box1 .img img{
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.box1 .img p{
+    float: right;
+    display: block;
+    background: white;
+    padding: 5px;
+    text-align: left;
+    position: absolute;
+    right: 0;
+    top: 10px;
+}
+
+.box1 .img_2 img{
+    display: block;
+}
+
+.slick-dots{
+    text-align: center;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    background: gray;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+.slick-dots li button{
+    display: none;
+}
+
+.visual #image_swiper .slick-active{
+    background: red;
+}

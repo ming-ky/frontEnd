@@ -1,0 +1,86 @@
+header {
+    width: 1000px;
+    height: 200px;
+    background: #db7093;
+    margin: 0 auto 30px;
+}
+
+.banner{
+    height: 200px;
+    background: #afeeed;
+    margin-bottom: 20px;
+}
+
+.container{
+    width: 1000px;
+    display: flow-root;
+    margin: 0 auto 40px;
+}
+
+.container .left{
+    width: 400px;
+    height: 800px;
+    /*background: red;*/
+    float: left;
+    margin-right: 20px;
+}
+
+.container .left .top{
+   display: flow-root;
+}
+
+.container .left .top li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #99fa99;
+}
+
+.container .left .top .beige{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background: #ede8ab;
+}
+
+.container .left .bottom{
+    width: 400px;
+    height: 400px;
+    background: #926fda;
+}
+
+.container .right{
+    width: 580px;
+    height: 800px;
+    /*background: #00c026;*/
+    float: right;
+}
+
+.container .right .top{
+    height: 500px;
+    background: #db7093;
+    margin-bottom: 20px;
+}
+
+.container .right .bottom{
+    display: flow-root;
+    /*height: 280px;*/
+    /*background: pink;*/
+}
+
+.container .right .bottom div{
+    width: 280px;
+    height: 280px;
+    background: #afeeed;
+    float: left;
+}
+
+.container .right .bottom .lightGreen{
+    background: #99fa99;
+    margin-left: 20px;
+}
+
+footer{
+    height: 200px;
+    background: #999999;
+}

@@ -1,0 +1,78 @@
+/*폰트 파일을 가지고 있을 경우에는 src로 폰트의 위치를 입력할 수 있음*/
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 700;
+    src: url("../font/NanumBarunGothicBold.ttf");
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 300;
+    src: url("../font/NanumBarunGothic.ttf");
+}
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 200;
+    src: url("../font/NanumBarunGothicLight.ttf");
+}
+
+@font-face {
+    font-family: 'NanumBarunGothic';
+    font-style: normal;
+    font-weight: 100;
+    src: url("../font/NanumBarunGothicUltraLight.ttf");
+}
+
+/*공통*/
+a{
+    text-decoration: none;
+    color: #222;
+}
+
+img{
+    display: block;
+}
+
+/*.layout 안에 있는 전체 선택자에게 폰트 적용하는 방법*/
+.layout * {
+    font-family: 'NanumBarunGothic', 'monospace';
+    box-sizing: border-box;
+}
+
+header{
+    height: 80px;
+    background: red;
+}
+
+header .innerHeader{
+    width: 970px;
+    height: 80px;
+    background: orange;
+    margin: 0 auto;
+}
+
+/*첫번째 로그인~라인*/
+header .topMenu{
+    float: right;
+    border: 2px solid dodgerblue;
+}
+header .topMenu li{
+    display: inline-block;
+    vertical-align: middle;
+    border: 2px solid black;
+    margin-left: 9px;
+}
+
+header .topMenu li a{
+    font-size: 10px;
+    font-weight: 700;
+    color: #808080;
+}
+
+header .logo {}
+header .gnb{}
+header .gnb ul{}
+header .gnb ul li{}
+header .gnb ul li a{}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--   링크방식 : css에 입력해서 링크로 style을 입력하는 방식-->
+    <link rel="stylesheet" href="../테스트/style.css">
+
+<!--    임베디드 방식 : head안에 style태그를 사용해서 style을 입력하는 방식-->
+<!--    style태그를 사용하지만 입력방식은 css에 입력하는 식으로 입력함-->
+    <style>
+        div{ color: aqua}
+    </style>
+<!--    코드는 위에서부터 아래로 읽어가기 때문에 마지막에 적힌 태그가 우선순위가 됨-->
+<!--    ex: 임베디드 밑에 링크가 있다면 링크적용 / 링크 밑에 임베디드가 있다면 임베디드 적용-->
+</head>
+<body>
+
+<!--인라인 방식 :태그 안에 style 입력하는 방식-->
+<!--링크,임베디드,인라인방식에서 우선순위는 인라인-->
+<div style="color: red">하이미디어</div>
+
+<!--하이미디어1~4 중에 하나만 적용하고 싶을 때는 바꾸고 싶은 부분의 태그를 바꾸거나-->
+<!--class 또는 id의 속성을 사용해서 개별 적용하는 방법이 있음-->
+<div>하이미디어1</div>
+<div class="hi_2"> 하이미디어2</div>
+<div>하이미디어3</div>
+<div id="hi_4"> 하이미디어4</div>
+
+<!--다른 태그여도 class 이름이 같으면 css에 class 이름을 적었을 때 공통으로 적용됨-->
+<!--같은 class 지만 따로 주고싶으면 다른 태그.class이름을 적으면 개별적으로 적용됨-->
+<div class="box">하이미디어5</div>
+<section class="box">하이미디어6</section>
+<div class="box">하이미디어7</div>
+<footer class="box">하이미디어8</footer>
+
+</body>
+</html>

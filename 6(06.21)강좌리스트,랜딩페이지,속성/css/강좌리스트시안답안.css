@@ -1,0 +1,108 @@
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+/* Google Web Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+section{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    color: #222;
+}
+
+section .title_box h1{
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+section .title_box{
+    margin-bottom: 30px;
+}
+section .title_box > p{
+    font-weight: 300;
+}
+
+.wrap {
+    display: flow-root;
+}
+.wrap .item{
+    width: 290px;
+    height: 500px;
+    background: red;
+    float: left;
+    margin-right: 12px;
+}
+
+/*아이템에서 하나만 잡을때 태그*/
+.wrap .item:nth-child(4){
+    margin-right: 0;
+}
+
+.wrap .item .image{
+    margin-bottom: 10px;
+}
+.wrap .item .image img{
+    width: 100%;
+    display: block;
+}
+
+.wrap .item .info{}
+.wrap .item .info h2{
+    font-size: 16px;
+    margin-bottom: 10px;
+    /*행간 여백 1.4는 폰트사이즈의 1.4배*/
+    line-height: 1.4;
+}
+.wrap .item .info > span{
+    display: block;
+}
+.wrap .item .info .category{
+    font-weight: 600;
+    color: #0084ff;
+}
+.wrap .item .info p{
+    margin: 12px 0;
+    font-size: 0;
+}
+.wrap .item .info p .fa{
+    color: gold;
+    font-size: 16px;
+}
+.wrap .item .info p span{
+    font-size: 13px;
+}
+.wrap .item .info .price{
+    font-weight: 700;
+    color: royalblue;
+    margin-bottom: 5px;
+}
+.wrap .item:nth-child(3) .info .badge{
+    background: #d0eadf;}
+
+.wrap .item .info .badge{
+    background: #f6d5ea;
+    /*글씨 만큼만 백그라운드가 칠해지게 하는 것*/
+    display: inline-block;
+    /*패딩의 x,y축 여백*/
+    padding: 4px 8px;
+    /* 박스 끝을 둥글게*/
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.wrap .item.event .info p{
+    font-size: 15px;
+    line-height: 1.3;
+    font-weight: 300;
+}
+
+.wrap .item.event .info h2{
+    font-size: 20px;
+    color: red;
+}
+
+
+

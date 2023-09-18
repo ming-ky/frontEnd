@@ -1,0 +1,151 @@
+body{
+    font-family: "Noto Sans KR", sans-serif;
+    background: #eee;
+}
+
+section{
+    height: 100vh;
+}
+
+header{
+    height: 60px;
+    background: white;
+    /*위에 배너칸 나누는 방법*/
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 60px;
+    /*텍스트 중앙정렬 방법*/
+    position: relative;
+}
+
+header a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    /*margin-left: -40.5px;*/
+    /*margin-top: -15.5px;*/
+    margin: -15.5px 0 0 -40.5px;
+}
+/*    배너 중앙정렬 방법 - header를 relative로 잡고 컨텐츠 중앙배치방법 적용*/
+
+
+.container{
+    height: calc(100vh - 60px);
+    /*화면에서 header를 뺀 나머지 사이즈*/
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+.login{
+    width: 360px;
+    /*background: yellow;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -300px 0 0 -180px;
+}
+/*    중앙 배치 하는 방법 container relative login absolute+중앙정렬방법 */
+
+.login > div{
+    border: 1px solid lightgray;
+    font-size: 18px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    color : white;
+    font-weight: 300;
+    position: relative;
+}
+/*    로그인 버튼 크기배치 및 글씨 중앙정렬방법 */
+
+.login div img {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+/*transform 컨텐츠 크기를 기준으로 잡고 x,y축 위치를 잡는 방법
+             margin으로 크기 반씩 나눠서 안해도 되는 방법*/
+
+.login .btn1{
+    background: white;
+    color: #222;
+}
+
+.login .btn2{
+    background: #898c9d;
+}
+
+.login .btn3{
+    background: #11ce00;
+}
+
+.login .btn4{
+    background: #0076fe;
+}
+
+.login .btn5{
+    background: #00c026;
+}
+
+.login article{
+    position: relative;
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #222;
+    font-weight: 300;
+}
+/*'또는' 텍스트 중앙정렬방법*/
+
+.login article:before,
+.login article:after{
+    content: "";
+    width: 43%;
+    height: 1px;
+    background: lightgray;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.login article:before{
+    left: 0;
+}
+
+.login article:after{
+    right: 0;
+}
+.login h2{
+    text-align: center;
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.login .login-footer {
+    text-align: left;
+    font-size: 16px;
+    padding: 0;
+    color: #222;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.login p{
+    color:#222;
+    text-align: center;
+    font-weight: 300;
+}
+
+.login p a{
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.login p:hover a{
+    text-decoration: underline;
+}
+

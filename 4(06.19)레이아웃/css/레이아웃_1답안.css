@@ -1,0 +1,54 @@
+.layout {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.layout header{
+    height: 100px;
+    background: orangered;
+    margin-bottom: 20px;
+}
+
+.layout .wrap{
+    display: flow-root;
+    margin-bottom: 30px;
+}
+
+.layout .bottom{
+    height: 130px;
+    background: mediumpurple;
+    margin-bottom: 20px;
+}
+
+.layout footer{
+    height: 50px;
+    background: navy;
+}
+
+.layout .wrap .snb{
+    width: 200px;
+    height: 700px;
+    background: dodgerblue;
+    float: left;
+    margin-right: 10px;
+}
+
+.layout .wrap .contents{
+    width: 790px;
+    height: 700px;
+    background: greenyellow;
+    float: left;
+}
+
+.layout .bottom div{
+    display: flow-root;
+    width: 330px;
+    height: 130px;
+    float: left;
+    background: deeppink;
+}
+
+.layout .bottom .b2{
+    margin: 0 5px;
+}
+

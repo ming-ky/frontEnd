@@ -1,0 +1,62 @@
+.header{
+    width: 100%;
+    display: flow-root;
+}
+.header .main{
+    height: 350px;
+    background: #3072ec;
+    margin-bottom: 20px;
+    display: flow-root;
+}
+
+.header .main header{
+    width: 1000px;
+    height: 80px;
+    background: #464646;
+    margin: 30px auto 0;
+}
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.contents{
+    display: flow-root;
+    background: hotpink;
+    margin-bottom: 20px;
+}
+
+.contents li{
+    width: 180px;
+    height: 400px;
+    float: left;
+    margin-right: 4px;
+}
+
+.contents .gradientBg,
+.contents .main_box{
+    width: 314px;
+    background: orange;
+}
+
+.contents .popupMenu{
+    margin-right: 0;
+}
+
+.contents li div{
+    height: 198px;
+    background: orange;
+}
+
+.contents li .top{
+    margin-bottom: 4px;
+}
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background: #2a2b2b;
+    margin: 0 auto;
+    margin-top: 30px;
+}

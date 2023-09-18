@@ -1,0 +1,11 @@
+/*상위요소 입력방법 복습*/
+/*div 두 개일 경우 div 상위요소를 입력하여 구분할 수 있음*/
+
+/*번외*/
+/*div2에 스타일을 줄 경우*/
+/*header section article div {} 이렇게 입력할 수 있지만 길고*/
+/*header div 로 입력하기에는 div 2개 존재함*/
+/*section 겹치기 때문에 section class 넣어서 구분할 수 있음*/
+.section1 div {background: blue}
+.section2 div {border: 2px solid black}
+

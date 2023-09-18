@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<!--형변환-->
+
+<script>
+    // let  a = 100;
+    // let  b = String(a);
+    // console.log(typeof a); //number
+    // console.log(typeof b); //string
+    // //number 형태였던 a의 값을 string 형태로 형변환함
+    //
+    //
+    //명시적 형변환
+    // let c="100";
+    // let d =Number(c);
+    // console.log(typeof c); //string
+    // console.log(typeof d); //number
+    // //c의 값을 Number 형태로 변환하겠다고 명시한 변환방법
+
+    //묵시적 형변환
+    // let a =100;
+    // let b ="100";
+    // let c = a * b;
+    // console.log(c); //1000
+    // console.log(typeof c); //number
+    //a와 b는 서로 다른 형태였는데 c에서 묵시적으로 같은 형태로 변환시킴
+
+    // let a = "10";
+    // let b = 10;
+    // let c = a+b;
+    // console.log(c); //1010
+    // console.log(typeof c); //string
+    //이번엔 숫자로 더해지지 않고 string 타입으로 변환되어서 단어+단어가 됨
+
+    // let a = "100";
+    // let conversionA = a / 10;
+    //
+    // console.log(conversionA); // 10
+    // console.log(typeof conversionA); //number
+    //
+    // let b = "20";
+    // let conversionB = b - 10;
+    // console.log(conversionB); // 10
+    // console.log(typeof conversionB); //number
+
+    // 연산방법에 따른 형변환 ( +를 뺀 나머지 연산은 숫자형태로 변환시킴)
+    // + 문자
+    // - 숫자
+    // * 숫자
+    // / 숫자
+
+    // let c = "200px";
+    // let conversionC = c - 10;
+    // console.log(conversionC); // NaN
+    // console.log(typeof conversionC); //number
+    //위 경우 연산방법에 따라 number로 형태는 바뀌지만
+    // 200px - 10 연산은 불가능 하므로 값은 NaN이 나옴.
+
+    // console.log(Number("100px")); //NaN
+    // console.log( Boolean(1) ); // true
+    // console.log( Boolean(0) ); // false
+    // console.log( +true ); // 1 : true 몇 개 인지 나옴
+
+
+</script>
+</body>
+</html>

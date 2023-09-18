@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    //객체생성자 방식
+    // let person_name = "JB";
+    // let person_age = "28";
+    // let person_gender = "남성";
+    // let person_run = function (){
+    //     console.log("달린다!");
+    // }
+    // let person_say = function (){
+    //     console.log("안녕");}
+
+    // 객체생성자방식처럼 반복적인 함수를 계속 적지 않고 한 번에 적을 수 있는 방법
+    // 객체 리터럴 방식
+    // let person = { //객체 object : 객체 안에는 프로퍼티가 있고 프로퍼티는 키와 벨류로 되어있음.
+    //     name : "JB", // key : "value" = property
+    //     age : 28,
+    //     gender : "남성",
+    // };
+    //호출방법
+    //점표기법
+    // console.log(person.name) //JB
+    // console.log(person.gender) //남성
+
+    //벨류에는 멤버, 메서드가 있음.
+    // let person2 = {
+    //     key1 : 100, //멤버
+    //     key2 : "value123",
+    //     key3 : true,
+    //     key4 : null,
+    //     key5 : undefined,
+    //     key6 : function (){console.log("안녕!")}, //함수를 쓴 벨류는 메서드
+    //     key7 : {
+    //         a : 10,
+    //         b : 20,
+    //         c : 30},
+    //     key8 : [1, 2, 3, 4, 5]
+    // };
+    //호출방법
+    // console.log(person2.key1); // 100
+    // console.log(person2.key2); // value123
+    // 메서드 호출
+    // person2.key6(); // key6의 벨류는 함수를 사용했기 때문에
+    //                 // 함수가 들어있는 프로퍼티를 호출할 때는 함수호출방법을 사용해야함.
+    //대괄호 표기법
+    // console.log(person2["key3"])
+    // console.log(person2["key4"])
+    // console.log(person2["key5"])
+    //
+    //대괄호 표기법의 쓰임
+    // const a = "key3"
+    // console.log(person2["key3"])
+    // //응용
+    // let user = {
+    //     name:"JB",
+    //     age:30
+    // };
+    // let key = prompt("사용자의 어떤 정보를 얻고 싶으신가요?");
+    // console.log(user[key]);
+    // //prompt창의 얻고 싶은 정보의 key를 입력하면 그 key의 value가 출력됨.
+
+    //객체의 프로퍼티 추가
+    // let user = {
+    //     name : "JB",
+    //     age : 30
+    // };
+    //추가 방법
+    // user.gender = "남성";
+    // user["location"] = "서울";
+    // console.log(user);
+
+    //삭제 방법
+    // user.gender = null;
+
+    //객체 안에 프로퍼티가 있는지 확인 하는 방법
+    // console.log( "hello" in user ); // false
+    // console.log( "name" in user ); // true
+    // console.log( "age" in user ); // true
+    // console.log( "location" in user ); //true
+
+    //프로퍼티 추가, 수정, 삭제 응용
+    // const obj = {
+    //     a : 10,
+    //     b : 20
+    // };
+    //프로퍼티 추가
+    // obj.c=100;
+    // console.log(obj); //obj에 c가 추가됨
+    // console.log(obj.a); //10
+    //프로퍼티 수정
+    // obj.a = 30
+    // console.log(obj.a) //obj의 a가 30으로 바뀜
+    //프로퍼티 삭제
+    // obj.c = null
+    // console.log(obj) // obj의 c가 null로 나타남
+
+
+
+
+</script>
+
+</body>
+</html>

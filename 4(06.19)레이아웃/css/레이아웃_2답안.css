@@ -1,0 +1,58 @@
+.wrap {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.wrap header{
+    height: 120px;
+    background: dodgerblue;
+    margin-bottom: 20px;
+}
+.wrap .container{
+    display: flow-root;
+    /*background: gray;*/
+    margin-bottom: 10px;
+}
+.wrap .list_box{
+    /*height: 70px;*/
+    background: red;
+    margin-bottom: 30px;
+    display: flow-root;
+    padding: 10px;
+}
+.wrap footer{
+    height: 70px;
+    background: black;
+}
+
+.wrap .container div{
+    height: 400px;
+    background: orange;
+    float: left;
+}
+
+.wrap .container .left{
+    width: 200px;
+}
+
+.wrap .container .center{
+    width: 420px;
+    margin: 0 20px;
+}
+
+.wrap .container .right{
+    width: 240px;
+}
+
+.wrap .list_box li{
+    width: 170px;
+    height: 70px;
+    background: blue;
+    float: left;
+    margin-right: 8px;
+}
+
+.wrap .list_box .last{
+    margin-right: 0;
+    width: 168px;
+}

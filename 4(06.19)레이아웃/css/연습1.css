@@ -1,0 +1,29 @@
+.wrap div{
+    height: 200px;
+}
+
+.warp{
+    width: 200px;
+    background: gray;
+    margin: 0 auto;
+}
+/*magin: auto 는 여백을 계산하는 방법 (화면에 크기가 어떻든 그 위치에 배치됨)
+         0 auto는 중앙정렬
+         left, right auto는 그 방향으로 정렬*/
+
+.videoFrame {
+    background: red;
+    position: relative;
+}
+
+.gradientBg {
+    background: orange;
+}
+
+.main_box {
+    background: blue;
+}
+
+.popupMenu {
+    background: green;
+}

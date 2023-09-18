@@ -1,0 +1,21 @@
+/*.menu > li > a {color: red}*/
+/*.sub > li > a {color: green}*/
+/*.top_menu li {background: orange}*/
+
+/*.top_menu {background: orange}*/
+/*.top_menu li {background: blue}*/
+
+.top_menu {border: 2px solid red}
+.top_menu > li > a {color: red}
+.top_menu > li > .menu_02 {border: 2px solid orange; color: green}
+
+.menu_01 {border: 2px solid red}
+.sub {border: 2px solid green}
+.menu_01>  li {border: 2px solid skyblue}
+
+.menu_01 > li > .menu01 > .sub > .서브01 {color: green}
+.menu_01 > li > ul > li > .서브02 {border: 2px solid orange; color: red}
+.sub > li > a {color: green}
+
+/*복습*/
+/*공통적용 후 개별적용 하기*/

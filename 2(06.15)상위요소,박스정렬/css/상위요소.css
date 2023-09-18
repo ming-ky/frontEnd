@@ -1,0 +1,19 @@
+/*가장 마지막에 div가 되어있기 때문에 모든 div한테 적용됨.*/
+main section article div {color: red; font-size: 30px;}
+
+section article div {color: blue; font-size: 30px}
+
+article div {color: orange; font-size: 30px}
+
+div {color: aqua; font-size: 30px}
+
+/*위의 경우 div의 출력색상은 red로 출력됨*/
+/*상위조건을 많이 적을수록 우선순위가 되기 때문에 가장 위에 적은 red가 적용됨*/
+/*같은 조건일 경우에는 마지막에 적은 게 출력됨*/
+
+main section div {color: red}
+/*위 처럼 입력할 경우 모든 section안에 div를 입력했지만 그 안에 모든 div에게 적용됨*/
+
+/*section 밑에 있는 <div>SAMPLE</div>에만 효과를 주고 싶은 경우*/
+main section > div {color: orange}
+/*이렇게 사용하거나 class 속성을 사용하여 main setion.class명 {color: } 적용하면 됨*/

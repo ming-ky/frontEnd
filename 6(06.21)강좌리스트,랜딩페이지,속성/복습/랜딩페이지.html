@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="../../common/reset.css">
+    <link rel="stylesheet" href="css/랜딩페이지.css">
+</head>
+<body>
+<section>
+    <div class="videoFrame">
+        <video src="images(랜딩페이지)/video-female.mp4" autoplay muted loop></video>
+    </div>
+    <div class="gradientBg"></div>
+    <div class="main_box">
+        <div class="logo">
+            <img src="images(랜딩페이지)/logo.png" alt="">
+        </div>
+        <div class="text">
+            <h2><span>Wave Ocean</span> The World's Ocean</h2>
+            <p>The Atlantic Ocean is situated between the Americas and European/African continents. Atlantic Ocean is the
+                second largest and saltiest ocean in the world. It resembles an S-shape between the Americas, Europe and
+                Africa. “Atlantic” originated from the Greek god “Atlas” who carried the sky for eternity.</p>
+            <div class="btns">
+                <button class="book">Book Now</button>
+                <button class="learn">Learn More</button>
+            </div>
+        </div>
+        <div class="anniversary">
+            <span>Anniversary</span>
+            <strong>60</strong>
+        </div>
+    </div>
+    <div class="popupMenu"></div>
+    <div class="menu_btn"></div>
+</section>
+
+<!--만들기 순서
+1.section 안에 배경,그라데이션,왼쪽로고/텍스트,오른쪽버튼/텍스트 넣을 box 만들기
+2.section은 relativ / box는 absolute로 포지션 잡아주기
+3.밑에 깔리는 순서(배경)부터 차례대로 만들기-->
+<!--기억할 거
+1.object-fit: cover; 화면에 딱 맞게 맞추기
+2.transform: translate(-50%, -50%); 화면비율에 맞게 컨텐츠 가운대 부분으로 맞추기
+3.position: absolute; 하면 스크롤이 없어짐-->
+</body>
+</html>

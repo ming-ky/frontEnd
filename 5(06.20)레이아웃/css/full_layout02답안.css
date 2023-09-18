@@ -1,0 +1,39 @@
+.wrap{
+    height: 100vh;
+}
+
+.wrap > div{
+    height: 100%;
+}
+
+.wrap .left{
+    width: 200px;
+    background: #2a2b2b;
+    float: left;
+    /*position: relative;*/
+}
+
+.wrap .contents{
+    width: calc(100% - 550px);
+    background: #1a7ff1;
+    float: left;
+}
+
+.wrap .sideContents{
+    width: 350px;
+    background: #ff9228;
+    float: right;
+}
+
+.wrap .left .top{
+    height: 100px;
+    background: #ff9228;
+}
+
+.wrap .left .bottom{
+    width: 200px;
+    height: 200px;
+    background: #ff9228;
+    position: absolute;
+    bottom: 0;
+}

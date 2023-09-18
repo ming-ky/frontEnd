@@ -1,0 +1,46 @@
+.wrap{
+    width: 980px;
+    height: 883px;
+    background: gray;
+    margin: 200px auto;
+    position: relative;
+}
+.wrap div{
+    width: 200px;
+    height: 200px;
+}
+
+.wrap .videoFrame{
+    background: orange;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.wrap .gradientBg{
+    background: blue;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.wrap .main_box{
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.wrap .popupMenu{
+    background: mediumorchid;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.wrap .box5{
+    background: green;
+    position: absolute;
+    /*객체 크기가 어떻든 객체 중간에 위치하고 싶을때 쓰는 공식*/
+    left: 50%;
+    top: 50%;
+    margin-left: -100px;
+    margin-top: -100px;
+}

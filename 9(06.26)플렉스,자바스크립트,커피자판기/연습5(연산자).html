@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--연습 3,4 요약-->
+<!--자료형
+숫자형 (Number)
+문자형 (Str)
+불린형 (참,거짓으로 표현함)
+null (빈 값)
+undefined (정의되지 않은 값)-->
+
+<!--형변환
+명시적형변환 (형태를 지정해서 바꾸는 거)
+Number(); , String() , Boolean()
+묵시적형변환
+연산방법에 따라 암묵적으로 형태를 바꿔버림
+"100"+10 : "10010" 문자타입
+"20" - 10 : 10 숫자타입
+(+는 문자형태, + 제외한 다른 사칙연산은 숫자형태)
+true + true = 2 (Boolean 형태로 바꿔짐)-->
+
+<script>
+<!--  연산자   -->
+
+// console.log(10+10) //덧셈
+// console.log(20-10) // 10
+// console.log(10*10)// 100
+// console.log(30/3) //10
+//
+//1.나머지 연산자  : 나누기 한 뒤 나머지의 값
+// console.log( 10% 3) // 1
+// console.log( 10% 5) // 0
+// console.log( 10% 2) // 0
+// console.log( 10% 7) // 3
+//
+//2.제곱연산자
+// console.log(2**2); //4 -
+// console.log(2**3); //8 (2x2x2)
+// console.log(2**4); //16 (2x2x2x2)
+//
+//3.선증감연산자 (전위형증감연산자)
+// let num =10;
+// console.log(++num); //11
+//
+//4.후증감연산자 (후위형증감연산자)
+// let num2 = 20;
+// console.log(num2++); // 20
+// console.log(num2); // 21 -> 후증감연산자를 사용한 뒤에 치면 증감이되어있음.
+//
+// let num3 = "30";
+// console.log(num3++);// 30
+// console.log(num3);// 31
+
+//선증감,후증감 응용예시문제
+// let num = 10;
+// console.log(num++); //10
+// console.log(++num); //12
+// console.log(num); //12
+
+//5.비교 연산자 : 자료형 boolean type 할당 (값이 true인지 false인지 나옴)
+// let a = 10 > 20;
+// console.log(a); //false
+//
+// let b = 100 < 200;
+// console.log(b) //true
+//
+// let c = 10>=10;
+// console.log(c); //true
+//
+// let d = 20 <= 10;
+// console.log(d); //false
+//
+// //6.동등연산자
+// console.log("10">=10); // true ("10"이 숫자타입으로 변환됨)
+// console.log("10"==10); // true
+// 동등연산자에서 =을 3개쓰면 텍스트타입도 일치하는지 봄
+// console.log("10"===10); // false
+// 동등연산자 응용문제
+console.log("2">1); // true
+console.log("0"<1); // true
+console.log("0"===0)// false
+console.log(true===1)// false
+//부정
+console.log(0 !== 1); // true *!를 쓰면 부정 (0과 1은 같지 않다 여서 true가 나옴)
+console.log(!"0")//false 문자가 있는데 부정해서 false가 나옴
+console.log(!"")//true 문자가 없다 여서 true가 나옴
+console.log(!0)//true 문자가 없다 인데 숫자가 있고 문자는 없기때문에 true가 나옴
+
+
+
+</script>
+
+
+
+</body>
+</html>

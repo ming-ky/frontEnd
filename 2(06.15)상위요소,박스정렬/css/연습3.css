@@ -1,0 +1,36 @@
+/*box 크기를 정하는 3대요소*/
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: red;
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+    /*margin: top right bottom left 순 (시계방향)*/
+    /*margin: 100px 100px 100px 100px*/
+    /*margin: 100px (4방향 다 동일값일 경우)*/
+    /*margin: 100px 50px; (축이 같은 상황에서 같은 값일 경우 위/아래 100,좌/우50)*/
+/*margin-방향 : 그 방향으로 입력한 크기만큼 여백을 만들어주는 기능*/
+
+.gradientBg {
+    width: 200px;
+    height: 200px;
+    background: orange;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+/*padding-방향 : 그 방향으로 입력한 크기만큼 채워주는 기능*/
+
+.main_box {
+    width: 200px;
+    height: 200px;
+    background: dodgerblue;
+    border: 10px solid black;
+}
+/*border 입력한 크기만큼 컨텐츠의 테두리를 채워주는 기능 */
+/*방향을 입력하면 그 방향에서 크기적용*/
+
+/*margin 제외한 나머지는 다 컨텐츠의 크기에 영향을 줌*/

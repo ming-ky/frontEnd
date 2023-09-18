@@ -1,0 +1,140 @@
+/*google web font*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Noto+Sans+KR:wght@500&display=swap');
+/* 'Montserrat' */
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Noto+Sans+KR:wght@500&display=swap');
+/* 'Monoton' */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Raleway:wght@300&display=swap');
+/* 'Raleway' */
+
+section {
+    position: relative;
+    height: 100vh;
+    background: black;
+}
+
+.videoFrame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.videoFrame video{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.gradientBg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background:linear-gradient(220deg, #e52d3d,transparent);
+}
+
+.main_box {
+    position: relative;
+    height: 100%;
+    width: auto;
+}
+
+.main_box .logo{
+    position: absolute;
+    top:50px;
+    left: 100px;
+}
+
+.main_box .logo img{
+    width: 80px;
+}
+
+.main_box .text{
+    position: absolute;
+    left: 100px;
+    bottom: 50px;
+    width: 600px;
+}
+.main_box .text h2{
+    color: beige;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 1.1;
+}
+
+.main_box .text span{
+    color: #e63d67;
+    display: block;
+}
+
+.main_box .text p{
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.main_box .btns button{
+    width: 150px;
+    background: #fff;
+    color: black;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    padding: 7px;
+}
+.main_box .btns .learn{
+    background: transparent;
+    margin-right: 5px;
+    color: #fff;
+}
+
+.main_box .anniversary {
+    position: absolute;
+    right: 100px;
+    bottom: 50px;
+    color: black;
+    text-align: center;
+}
+.main_box .anniversary span {
+    display: block;
+    font-size: 30px;
+}
+.main_box .anniversary strong {
+    font-size: 120px;
+    font-family: 'Monoton', sans-serif;
+    line-height: 1.2;
+}
+
+.main_box .anniversary span {
+    display: block;
+    font-size: 30px;
+}
+.main_box .anniversary strong {
+    font-size: 120px;
+    font-family: 'Monoton', sans-serif;
+    line-height: 1.2;
+}
+
+.popupMenu {
+    display: none;
+    position: absolute;
+    height: 100%;
+}
+.menu_btn {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    border: 2px solid black;
+}
+
+
+
+

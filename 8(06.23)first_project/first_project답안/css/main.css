@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+/* 공통 */
+.inner {
+    width: 970px;
+    margin: 0 auto;
+}
+
+
+#layout {}
+
+/* 헤더 */
+header {
+    background: blue;
+    margin-bottom: 50px;
+}
+header .innerHeader {
+    background: orange;
+    height: 80px;
+}
+
+/* 메인 */
+.main {
+    margin-bottom: 60px;
+}
+.visual {
+    position: relative;
+    /*height: 465px;*/
+    background: orange;
+    margin-bottom: 30px;
+}
+.visual .productSlider {
+    height: 465px;
+    background: cyan;
+}
+.visual .productBtn {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.visual .prevBtn {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.visual .nextBtn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.boardList {
+    /*height: 180px;*/
+    background: orange;
+    margin-bottom: 50px;
+}
+.boardList > ul {
+    display: flow-root;
+}
+.boardList > ul .board {
+    width: 310px;
+    height: 180px;
+    background: red;
+    float: left;
+}
+.boardList > ul .board:nth-child(2) {
+    margin: 0 20px;
+}
+
+.boardList > ul .board .title {
+    height: 60px;
+    background: cyan;
+}
+.boardList > ul .board .banner {
+    height: 60px;
+    background: greenyellow;
+}
+.boardList > ul .board ul {}
+
+
+
+.bottomList {
+    background: orange;
+}
+.bottomList > ul {
+    display: flow-root;
+}
+.bottomList > ul li {
+    width: 170px;
+    height: 34px;
+    background: red;
+    float: left;
+    margin-right: 20px;
+}
+
+/* 푸터 */
+footer {
+    background: blue;
+}
+footer .innerFooter {
+    height: 80px;
+    background: orange;
+}

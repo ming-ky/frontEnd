@@ -1,0 +1,53 @@
+.box{
+    width: 1000px;
+    /*display: flow-root;*/
+}
+
+.box header{
+    /*width: 1000px;*/
+    height: 100px;
+    background: #efa21b;
+    margin-bottom: 20px;
+}
+.box .container{
+    /*border: 1px solid black;*/
+    margin-bottom: 30px;
+    display: flow-root;
+}
+
+.box .container .snb{
+    width: 200px;
+    height: 700px;
+    background: #3072ec;
+    float: left;
+    margin-right: 10px;
+}
+
+.box .container .contents{
+    width: 790px;
+    height: 700px;
+    background: #7cd032;
+    float: left;
+}
+
+.box .bottom{
+    height: 130px;
+    display: flow-root;
+    /*border: 1px solid black;*/
+    margin-bottom: 20px;
+}
+
+.box .bottom div{
+    width: 330px;
+    height: 130px;
+    background: #eb60c5;
+    float: left;
+}
+
+.bottom .gradientBg{
+    margin: 0 5px;
+}
+.box footer{
+    height: 50px;
+    background: black;
+}

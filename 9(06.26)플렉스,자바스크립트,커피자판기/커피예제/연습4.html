@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<!-- 형변환 -->
+
+<script>
+  // type conversion
+
+  // 명시적 형변환
+  // let a = 100;
+  // let b = String(a);
+  //
+  // console.log(typeof a); // number
+  // console.log(typeof b); // string
+  //
+  //
+  // console.log("--------------------");
+  //
+  // let c = "100";
+  // let d = Number(c);
+  // console.log(typeof c); // string
+  // console.log(typeof d); // string
+
+
+  // 묵시적 형변환
+  // let a = 100;
+  // let b = "100";
+  // let c = a * b;
+
+  // console.log(c);
+  // console.log(typeof c);
+
+
+  // let a = "10";
+  // let b = 10;
+  // let c = "10" + "10";
+  //
+  // console.log(c); // 20
+  // console.log(typeof c); // number
+
+
+  // let a = "100";
+  // let conversionA = a / 10;
+  //
+  // console.log(conversionA); // 10
+  // console.log(typeof conversionA); // number
+  //
+  //
+  // console.log("--------------");
+  //
+  // let b = "200px";
+  // let conversionB = b / 10;
+  // console.log(conversionB); // NaN
+  // console.log(typeof conversionB); // Number
+
+
+  console.log("--------------");
+
+  console.log(  Number("100px") ); // NaN
+  console.log(  Boolean(1) ); //
+  console.log(   +false  );
+  console.log(  Boolean("100") );
+
+  // let a = "";
+  // let b = "0";
+  console.log("--------------");
+
+  console.log(  Boolean("0") ); // false
+  console.log(  Boolean("") );  // false
+
+
+
+
+</script>
+
+</body>
+</html>

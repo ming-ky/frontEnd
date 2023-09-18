@@ -1,0 +1,61 @@
+header {
+    width: 100%;
+    background: #f1a31b;
+}
+header .innerHeader {
+    width: 1000px;
+    height: 100px;
+    background: #6ec200;
+    margin: auto;
+}
+
+.main {
+    height: 300px;
+    width: 100%;
+    background: #3072ec;
+    margin-bottom: 20px;
+}
+
+.wrap {
+    width: 1000px;
+    /*background: #9d9fab;*/
+    display: flow-root;
+    margin: auto;
+}
+
+.wrap .container{
+    width: 700px;
+    height: 600px;
+    /*background: #fbcb24;*/
+    float: left;
+}
+
+.wrap .container div{
+    width: 350px;
+    height: 200px;
+    background: #fbcb24;
+    float: left;
+}
+
+.wrap .container .pink{
+    background: #c53cc3;
+}
+
+.wrap .sideContents{
+    width: 300px;
+    height: 700px;
+    background: #7cc818;
+    float: left;
+    margin-top: -100px;
+    margin-bottom: 30px;
+}
+
+footer{
+    width: 1000px;
+    height: 50px;
+    background: #464646;
+    margin: auto;
+}
+
+
+

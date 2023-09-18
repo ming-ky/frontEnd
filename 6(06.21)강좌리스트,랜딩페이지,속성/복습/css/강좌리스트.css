@@ -1,0 +1,106 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+section{
+    font-family: 'Noto Sans KR', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    color: #222;
+}
+
+.title{
+    margin-bottom: 30px;
+}
+
+.title h2{
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+.title span{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.contents {
+    display: flow-root;
+}
+
+.contents .list{
+    width: 290px;
+    height: 500px;
+    /*background: red;*/
+    float: left;
+    margin-right: 12px;
+}
+
+.contents .list div{
+    float: left;
+}
+
+.contents .list img{
+    width: 100%;
+    display: block;
+}
+
+.text > span{
+    display: block;
+}
+
+.text p{
+    font-size: 0;
+}
+
+.text p .fa{
+    color: goldenrod;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.text p span{
+    font-size: 15px;
+}
+
+.text .best{
+    background: pink;
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.text h2{
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 1.2;
+    font-size: 17px;
+}
+.text .category{
+    color: dodgerblue;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.text .price{
+    color: green;
+    font-weight:bold;
+    margin-bottom: 5px;
+}
+
+.contents .list:nth-child(4){
+    margin-right: 0;
+}
+
+.contents .list:nth-child(4) .text h2{
+    color: red;
+}
+
+.contents .list:nth-child(4) .text span{
+    color: black;
+    font-weight: normal;
+}
+
+
+
+

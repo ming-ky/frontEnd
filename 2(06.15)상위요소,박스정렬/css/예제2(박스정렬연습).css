@@ -1,0 +1,40 @@
+.container {
+    width: 900px;
+    display: flow-root;
+    background: deeppink;
+}
+
+.container div {
+    width: 300px;
+   height: 280px;
+    float: left;
+}
+
+.container .left {
+    /*!*width: 300px;*! 중복*/
+    /*!*height: 280px;*! 중복*/
+    background: greenyellow;
+    /*!*float: left;*! 중복*/
+}
+
+.container .center {
+    width: 280px;
+    /*!*height: 280px;*! 중복*/
+    margin: 0 10px;
+    background: blue;
+    /*!*float: left;*! 중복*/
+}
+
+.container .right {
+    /*!*width: 300px;*! 중복*/
+    /*!*height: 280px;*! 중복*/
+    background: orangered;
+    /*!*float: left;*! 중복*/
+}
+
+/*container 안에 있는 div 값 중 중복되는 것들은 .container div 같이 작성*/
+/*개별적인 것만 입력해주면 밑에 값이 출력되므로 width 다른 center 입력해주면 됨.*/
+
+/*복습*/
+/*class"이름" class의 이름이 달라도 태그가 같다면 중복되는 것들은 앞태그로 묶어서 공통적용*/
+/*개별적인 부분은 밑에 class이름을 따로 적어서 입력하면 개별적용됨*/

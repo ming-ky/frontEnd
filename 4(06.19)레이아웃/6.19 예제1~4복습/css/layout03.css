@@ -1,0 +1,80 @@
+.wrap{
+    width: 100%;
+    display: flow-root;
+}
+.wrap .main{
+    height: 350px;
+    background: #3072ec;
+    margin-bottom: 20px;
+    display: flow-root;
+}
+
+.wrap .main header{
+    width: 1000px;
+    height: 80px;
+    background: #464646;
+    margin: 30px auto 0;
+}
+
+.wrap .container{
+    display: flow-root;
+}
+
+.wrap .container .contents,
+.wrap .container footer{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.wrap .container .contents{
+    height: 400px;
+    background: deeppink;
+    margin-bottom: 20px;
+    display: flow-root;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrap .container .contents .videoFrame{
+    width: 180px;
+    height: 198px;
+    background: orange;
+    margin: 0 4px 4px 0;
+    float: left;
+}
+
+.wrap .container .contents .gradientBg{
+    width: 314px;
+    height: 400px;
+    background: orange;
+    margin-right: 4px;
+    float: left;
+}
+
+.wrap .container .contents .main_box{
+    width: 180px;
+    height: 198px;
+    background: orange;
+    float: left;
+}
+
+.wrap .container .contents .popupMenu{
+    width: 180px;
+    height: 198px;
+    background: orange;
+    margin-top: 4px;
+    float: left;
+}
+
+.wrap .container .contents .box5{
+    width: 180px;
+    height: 198px;
+    background: orange;
+    position: absolute;
+    bottom: 0;
+}
+
+.wrap .container footer{
+    height: 50px;
+    background: #464646;
+}

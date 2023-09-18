@@ -1,0 +1,44 @@
+.container {
+    width: 900px;
+    display: flow-root;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: orange;
+}
+
+.container .left {
+    width: 300px;
+    height: 700px;
+    background: dodgerblue;
+    /*border-right: 10px solid orange;*/
+    float: left;
+}
+
+.container .contents {
+    width: 590px;
+    height: 700px;
+    background: orangered;
+    margin-left: 10px;
+    float: right;
+}
+
+/*복습*/
+/*display:flow-root : 블록 컨테이너가 된다
+                      자식요소 블록들을 담음(left,contents)
+                      자식요소들의 float:방향이 적용되는 범위임.
+                      컨테이너 크기보다 크게 잡히는 요소들은 삭제됨.*/
+/*<!--display:flow-root로 컨테이너 만들기-->*/
+/*.ex {*/
+/*    width: 900px;*/
+/*    display: flow-root;*/
+/*    margin-top: 500px;*/
+/*    margin-bottom: 500px;*/
+/*    background: orange;*/
+}
+/**/
+/*.lee {*/
+/*    width: 1000px;*/
+/*    height: 700px;*/
+/*    background: dodgerblue;*/
+/*    border-right: 10px solid orange;*/
+/*    float: right;}*/

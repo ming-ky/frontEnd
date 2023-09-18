@@ -1,0 +1,15 @@
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.fa {
+    font-size: 30px;
+    color: red;
+}
+
+/*div 사이즈 초기화*/
+div{
+    font-size: 0;
+}
+span {
+    background: red;
+    font-size: 20px;
+}

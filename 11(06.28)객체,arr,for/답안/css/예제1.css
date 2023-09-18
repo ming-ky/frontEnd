@@ -1,0 +1,33 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wrap {
+    display: flex;
+}
+.wrap .box {
+    margin: 20px;
+    padding: 20px 40px;
+    border: 2px solid black;
+}
+.wrap .box:nth-child(1) {
+    /*background: palegreen;*/
+}
+.wrap .box.active {
+    background: palegreen;
+}
+
+.btnWrap {
+    margin-top: 50px;
+    text-align: center;
+}
+.btnWrap button {
+    font-size: 30px;
+    margin: 10px;
+}

@@ -1,0 +1,55 @@
+/*position: 컨텐츠의 위치*/
+/*position 옵션 종류*/
+/*static : 정적인, 기본적인, 기본값*/
+/*relative : 상대적인, 상대경로, 기준점*/
+/*absolute : 절대적인, 절대경로, 이동수단
+/* : 상대적인, 상대경로, 기준점
+/*fixed : 고정된, 화면기준
+          absolute처럼 화면 기준으로 움직이지만 그 위치에 고정됨
+          ex: 화면 스크롤을 내려도 항상 있던 위치에 고정*/
+body {
+    height: 3000px;
+}
+
+article {
+    position: relative;
+    width: 1000px;
+    height: 800px;
+    background: green;
+}
+
+section {
+   position: relative;
+    right: 0;
+    bottom: 0;
+    width: 800px;
+    height: 600px;
+    background: black;
+}
+div{
+    width: 200px;
+    height: 200px;
+    background: orange;
+}
+.videoFrame{
+    background: red;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}
+.gradientBg{
+    background: orange;
+}
+.main_box{
+    background: dodgerblue;
+}
+.fix {
+    width: 200px;
+    height: 200px;
+    background: gold;
+    position: fixed;
+    right: 0;
+    top: 0;
+}

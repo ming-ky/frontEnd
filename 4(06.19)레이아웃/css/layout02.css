@@ -1,0 +1,55 @@
+.wrap {
+    display: flow-root;
+    width: 100vh;
+}
+
+.wrap header{
+    height: 100px;
+    background: orange;
+}
+
+.wrap .main{
+    height: 300px;
+    background: deepskyblue;
+    margin-bottom: 20px;
+    width: 100vh;
+}
+
+.wrap .contents{
+    display: flow-root;
+    margin-bottom: 30px;
+}
+
+.wrap footer{
+    width: 1000px;
+    height: 50px;
+    background: gray;
+    margin: 0 auto;
+}
+
+.wrap header .h1{
+    width: 1000px;
+    height: 100px;
+    background: green;
+    margin: 0 auto;
+}
+
+.wrap .contents div{
+    width: 350px;
+    height: 200px;
+    float: left;
+}
+.wrap .contents .b1{
+    background: orange;
+}
+
+.wrap .contents .b2{
+    background: #c53cc3;
+}
+
+.wrap div .side {
+    width: 300px;
+    height: 700px;
+    background: #00c026;
+    float: right;
+}

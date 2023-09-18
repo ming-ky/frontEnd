@@ -1,0 +1,170 @@
+body, h2 {
+    margin: 0;
+    padding:0;
+}
+/*body,h2는 기본적인 여백이있음.
+꽉찬 화면을 쓰려면 여백초기화 작업이 필요함.*/
+section{
+    height: 100vh;
+    /*vh는 Viewport Height 보이는 화면을 다 채우는 크기*/
+    /*body 여백초기화 작업을 안하고 vh를 쓰면 스크롤이 생김*/
+    background: #eee;
+    position: relative;
+}
+
+.item{
+    /*border: 2px solid black;*/
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+/*블럭요소 특성상 가로축을 다 사용하기 때문에 가로축을 조정하는 태그가 필요함*/
+/*position, left, top, transform 06.16 수업 때 설명*/
+    overflow: hidden;
+    border-radius: 7px;
+}
+/*아이템에 마우스 댓을때 이미지 블러처리*/
+.item:hover img{
+    filter: blur(3px);
+}
+.item img{
+    transition: 0.3s;
+}
+
+.item:hover .detail{
+    bottom: 0;
+}
+
+.item .detail {
+    background: #f8f8f8;
+    height: 250px;
+    padding: 10px 20px;
+    /*    box-sizing박스 사이즈 안에서만 크기를 늘리고 줄일 수 있도록 하는 것*/
+    box-sizing: border-box;
+    /*상품 정보 박스가 사진을 덮게 하는 것*/
+    position: absolute;
+    left: 0;
+    bottom: -180px;
+    width: 100%;
+    /* transition: 시각적인 효과 (페이드인)*/
+    transition: 0.5s;
+}
+
+.item .detail .title{
+    display: flow-root;
+    /*border:1px solid dodgerblue;*/
+    /*border,padding 방향 정할 수 있음. bottom 입력하면 bottom 효과 생김*/
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.item .detail .title h2{
+    font-size: 16px;
+    color: #888;
+    line-height: 1.4em;
+    /*    em단위는 부모요소에 비례해서 값을 넣는 것 font-size X em 값으로 행간을 넣어줌*/
+    font-weight: normal;
+}
+.item .detail .title h2 strong{
+    font-size: 20px;
+    color: black;
+}
+
+.item .detail .title .price{
+    float: right;
+    font-size: 20px;
+    color: crimson;
+}
+
+.item .detail .info {
+    /*border: 2px solid dodgerblue;*/
+    margin-bottom: 12px;
+}
+.item .detail .info .size {}
+.item .detail .info .size .size_tittle {
+    /*background: orange;*/
+    margin-bottom: 5px;
+}
+.item .detail .info .size .size_item {
+    display: flow-root;
+}
+.item .detail .info .size .size_item div,
+.item .detail .info .color .color_item div{
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    /*line-height : 박스의 높이와 같은 값 입력하면 박스 중앙에 위치할 수 있음*/
+    float: left;
+    /*background: gray;*/
+    /*background: black;*/
+    /*color: white;*/
+    font-size: 12px;
+    margin-right: 4px;
+    text-align: center;
+    /*    border-radius : 박스 끝 둥글게*/
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+/* 태그:hover = 마우스를 가져다 댓을 때 배경/글자 색상 바뀌는 것 */
+.item .detail .info .size .size_item div:hover{
+    background: black;
+    color: white;
+}
+
+.item .detail .info .color {
+    /*border: 2px solid dodgerblue;*/
+    margin-bottom: 10px;
+}
+
+.item .detail .info .color .color_tittle{
+    /*background: orange;*/
+    margin-bottom: 5px;
+}
+.item .detail .info .color .color_item{
+    display: flow-root;
+}
+.item .detail .info .color .color_item div{
+    width: 15px;
+    height: 15px;
+    float: left;
+    /*background: gray;*/
+    font-size: 12px;
+    margin-right: 4px;
+    text-align: center;
+}
+.item .detail .info .color .color_item .green{
+    background: #808000;
+}
+.item .detail .info .color .color_item .red{
+    background: #ff0000
+}
+.item .detail .info .color .color_item .pink{
+    background: #ffc0cb
+}
+.item .detail .info .color .color_item .aqua{
+    background: #00ffff
+}
+.item .detail .info .color .color_item .blue{
+    background: #0000ff
+}
+
+.item .detail button {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 7px;
+    background: #fff;
+    cursor: pointer;
+}
+/*!*버튼의 경우 border/background/padding 기본적으로 셋팅되어있음*!*/
+/*!*그렇기 때문에 스타일 조정이 가능함*!*/
+
+.item .detail button:hover{
+    background: black;
+    color: white;
+}
+
+.item .detail .info .color .color_item div.on{
+    border-radius: 50px;
+}
